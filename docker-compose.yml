@@ -10,4 +10,6 @@ services:
     ports:
     - 27017:27017
     volumes:
-    - ./_docker/apibara_mongodb:/data/db
+    - data1:/data/db
+volumes:
+  data1:
